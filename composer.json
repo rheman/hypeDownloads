@@ -1,0 +1,27 @@
+{
+	"name": "pessek/hypedownloads",
+	"type": "elgg-plugin",
+	"description": "Digital product shop",
+	"keywords": [
+		"elgg", "plugin"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeDownloads"
+	},
+	"require": {
+		"php": ">=7.1",
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
